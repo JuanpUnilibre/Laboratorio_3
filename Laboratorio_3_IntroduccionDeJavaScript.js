@@ -2,7 +2,7 @@ function realizarOperacion() {
     let operacion = ""; // Inicializamos operacion con un valor vacío
     let continuar = "sí"; // Iniciamos con la suposición de que el usuario quiere continuar
 
-    while (continuar.toLowerCase() != "no") { //toLowerCase: transformar a minúsculas
+    while (continuar.toLowerCase() != "no") { // toLowerCase: transformar a minúsculas
         let num1, num2;
 
         // Solicitar el primer número y validar que sea un número entero
